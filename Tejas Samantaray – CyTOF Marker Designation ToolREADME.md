@@ -8,8 +8,11 @@ This repository contains an R-based workflow for correcting improperly labeled o
 Mass cytometry (CyTOF) datasets often contain .FCS files with inconsistent or missing metadata, particularly in channel naming or marker annotation. This creates major issues for downstream analysis in platforms such as:
 
 FlowJo
+
 FCS Express
+
 MaxPar Pathsetter (CyTOF ONLY)
+
 
 This script provides a streamlined approach to:
 
