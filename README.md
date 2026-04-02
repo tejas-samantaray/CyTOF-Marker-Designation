@@ -1,8 +1,30 @@
 # CyTOF-Marker-Designation
-Did you forget to load the CyTOF aquiring template while recording your data? This script will allow you to re-designate the correct metal isotope tag (eg: 144Nd, 95Pt, etc) to the biological marker (CD45, CD326, CDxx) if this mistake happened so that various analysis softwares can recognize your FCS files (eg: MaxPar Pathsetter).
+CyTOF FCS File Renaming & Formatting Script
 
+This repository contains an R-based workflow for correcting improperly labeled or unlabeled .FCS files generated from CyTOF experiments, enabling compatibility with downstream analysis tools.
 
-The "unlabeled" issue likely comes from using an unlabeled template (during acquiring on the Helios Mass Cytometer). Target names cannot be added post-acquisitions on CyTOF acquisition software, but using R we can apply our panel designations to the FCS files.
+🧬 Overview
 
+Mass cytometry (CyTOF) datasets often contain .FCS files with inconsistent or missing metadata, particularly in channel naming or marker annotation. This creates major issues for downstream analysis in platforms such as:
 
-This script can also be used to rename FCS files and assigning the correct fluorophore/color to the marker of choice, if this was done incorrectly at the conventional or spectral flow cytometer. Slight edits to the script may have to be made, but consult ChatGPT to do so correctly.
+FlowJo
+FCS Express
+MaxPar Pathsetter (CyTOF ONLY)
+
+This script provides a streamlined approach to:
+
+Standardize channel names
+Restore or assign marker labels
+Ensure proper formatting for downstream pipelines
+Reduce manual preprocessing time
+
+⚙️ Features
+Automated renaming of CyTOF channels
+Handles partially labeled or fully unlabeled .FCS files
+Custom mapping of metal channels → biological markers
+Compatible with common cytometry workflows
+Easily adaptable for different antibody panels
+
+Tejas Samantaray
+Ovarian cancer research analyst (lab technician) | Tumor microenvironment and CAF Biology | Proteomics & single-cell analysis
+@tejas.samantaray@bsd.uchicago.edu
