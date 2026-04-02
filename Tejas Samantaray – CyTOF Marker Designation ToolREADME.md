@@ -14,7 +14,7 @@ FCS Express
 MaxPar Pathsetter (CyTOF ONLY)
 
 
-This script provides a streamlined approach to:
+🧬 This script provides a streamlined approach to:
 
 Standardize channel names
 
@@ -38,7 +38,7 @@ Compatible with common cytometry workflows
 Easily adaptable for different antibody panels
 
 
-Made by Tejas Samantaray
+🧬 Made by Tejas Samantaray
 
 Ovarian cancer research analyst (lab technician) | Tumor microenvironment and CAF Biology | Proteomics & single-cell analysis
 
