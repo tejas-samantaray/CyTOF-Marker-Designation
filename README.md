@@ -1,4 +1,4 @@
-# CyTOF-Marker-Designation
+# Tejas Samantaray – CyTOF Marker Designation Tool
 CyTOF FCS File Renaming & Formatting Script
 
 This repository contains an R-based workflow for correcting improperly labeled or unlabeled .FCS files generated from CyTOF experiments, enabling compatibility with downstream analysis tools. This issue often occurs during the aquring of data if a labeled template has not been added to the CyTOF software prior to starting which leads to unlabled FCS files.
