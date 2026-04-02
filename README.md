@@ -14,18 +14,28 @@ MaxPar Pathsetter (CyTOF ONLY)
 This script provides a streamlined approach to:
 
 Standardize channel names
+
 Restore or assign marker labels
+
 Ensure proper formatting for downstream pipelines
+
 Reduce manual preprocessing time
 
+
 ⚙️ Features
+
 Automated renaming of CyTOF channels
+
 Handles partially labeled or fully unlabeled .FCS files
+
 Custom mapping of metal channels → biological markers
+
 Compatible with common cytometry workflows
+
 Easily adaptable for different antibody panels
 
-Tejas Samantaray
+
+Made by Tejas Samantaray
 
 Ovarian cancer research analyst (lab technician) | Tumor microenvironment and CAF Biology | Proteomics & single-cell analysis
 @tejas.samantaray@bsd.uchicago.edu
