@@ -5,4 +5,4 @@ Did you forget to load the CyTOF aquiring template while recording your data? Th
 The "unlabeled" issue likely comes from using an unlabeled template (during acquiring on the Helios Mass Cytometer). Target names cannot be added post-acquisitions on CyTOF acquisition software, but using R we can apply our panel designations to the FCS files.
 
 
-This script can also be used to rename FCS files and assigning the correct fluorophore/color to the marker of choice, if this was done incorrectly at the conventional or spectral flow cytometer.
+This script can also be used to rename FCS files and assigning the correct fluorophore/color to the marker of choice, if this was done incorrectly at the conventional or spectral flow cytometer. Slight edits may have to be made, but consult ChatGPT to do so correctly.
