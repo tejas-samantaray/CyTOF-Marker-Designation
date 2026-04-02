@@ -38,4 +38,5 @@ Easily adaptable for different antibody panels
 Made by Tejas Samantaray
 
 Ovarian cancer research analyst (lab technician) | Tumor microenvironment and CAF Biology | Proteomics & single-cell analysis
+
 @tejas.samantaray@bsd.uchicago.edu
